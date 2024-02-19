@@ -14,7 +14,7 @@ try:
     all_potatoes = potato_functions.load_potatoes(database_filename)
 except:
     pass
-# Base command
+# Base command.
 base_command = SlashCommand(
     name="potato",
     description="Commands involving potatoes"
